@@ -12,11 +12,15 @@ void main(List<String> args) {
   else
     n = args[0];
 
-  List<String> n_splitted = n.split('');
+  print(inverter(n));
+}
+
+String inverter(String string_to_invert){
+  List<String> n_splitted = string_to_invert.split('');
 
   List<String> n_inverted = n_splitted.reversed.toList();
 
   String inverted_string = n_inverted.join('');
 
-  print(inverted_string);
+  return inverted_string;
 }

@@ -1,29 +1,27 @@
-/* Given an integer, n, perform the following conditional actions:
-* If n is odd, print 'Odd'
-* if n is even and in the inclusive range of 2 to 5 print 'Small even'
-* if n is even and in the inclusive range of 6 to 20 print 'Medium even'
-* if n is even and greater than 20 print 'Big even'
+/* Write a function with an optional named parameter up that, for a given string,
+provided by the main function, make it upper case if up is true, lower case otherwise
+By default, up is false. Then print the result in the main function
 */
 
 void main(List<String> args) {
-  num? n;
+  String? string;
+  bool? upper;
 
   if (args.isEmpty) {
-    n = 5; //default value
-    print('No args, using default value: ${n}');
+    upper = false; //default value
+    string = "Ciao";
+    print('No args, using default value: ${upper}, ${string}');
   }
-  else
-    n = num.tryParse(args[0]);
+  else {
+    upper = bool.tryParse(args[1]);
+    string = args[0];
+  }
 
-  if (n! % 2 != 0) {
-    print("${n} is Odd");
-  } else {
-    if (n >= 2 && n < 5) {
-      print("${n} is small even");
-    } else if (n >= 6 && n < 20) {
-      print("${n} is medium even");
-    } else {
-      print("${n} is big even");
-    }
-  }
+  print(upperLower(string, upper!));
+}
+
+String upperLower(String string, bool up){
+  if (up)
+    return string.toUpperCase();
+  return string.toLowerCase();
 }
