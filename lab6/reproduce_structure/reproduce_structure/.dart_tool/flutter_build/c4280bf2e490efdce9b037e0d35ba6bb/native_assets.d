@@ -1,0 +1,1 @@
+ C:\\Users\\elisa\\OneDrive\\Desktop\\bwt\\lab6\\reproduce_structure\\reproduce_structure\\.dart_tool\\flutter_build\\c4280bf2e490efdce9b037e0d35ba6bb\\native_assets.yaml: 

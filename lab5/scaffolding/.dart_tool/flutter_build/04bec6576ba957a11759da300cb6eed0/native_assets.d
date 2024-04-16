@@ -1,0 +1,1 @@
+ /Users/cappe/Desktop/BWTHW/bwthw/lab_05-understanding_ui/scaffolding/.dart_tool/flutter_build/04bec6576ba957a11759da300cb6eed0/native_assets.yaml: 

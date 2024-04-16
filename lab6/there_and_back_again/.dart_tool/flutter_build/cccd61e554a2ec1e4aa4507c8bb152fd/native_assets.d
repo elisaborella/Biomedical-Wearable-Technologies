@@ -1,0 +1,1 @@
+ /Users/cappe/Desktop/BWTHW/bwthw/lab_06-navigation/there_and_back_again/.dart_tool/flutter_build/cccd61e554a2ec1e4aa4507c8bb152fd/native_assets.yaml: 

@@ -1,0 +1,1 @@
+ /Users/cappe/Desktop/BWTHW/bwthw/lab_07-state_management/shopper/.dart_tool/flutter_build/ca595c918627ae2c93caba664434f305/native_assets.yaml: 

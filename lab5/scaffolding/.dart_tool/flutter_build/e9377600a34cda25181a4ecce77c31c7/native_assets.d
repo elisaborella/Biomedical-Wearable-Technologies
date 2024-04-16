@@ -1,0 +1,1 @@
+ C:\\Users\\elisa\\OneDrive\\Desktop\\bwt\\lab5\\scaffolding\\.dart_tool\\flutter_build\\e9377600a34cda25181a4ecce77c31c7\\native_assets.yaml: 
